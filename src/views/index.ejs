@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <%- include ('partials/head') -%>
+</head>
+
+<body>
+
+    <%- include ('partials/navigation') -%>
+    <!--imagen-->
+    <div class="container">
+        <header class="row">
+            <div class="col-lg-12 text-center">
+                <img src="/img/dead-space-2.jpg" class="animate__animated animate__jackInTheBox" alt="dead-logo">
+            </div>
+        </header>
+    </div>
+
+    <!--SECTIONS ONE-->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fab fa-youtube fa-10x"></i>
+            </div>
+            <div class="col-sm-6">
+                <h3>Gameplay Deadspace 2</h3>
+                <p>Dead Space es un shooter en tercera persona con ambientación Horror de supervivencia, desarrollado por EA Redwood Shores y distribuido por Electronic Arts. </p>
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/footer') -%>
+
+</body>
+
+</html>
